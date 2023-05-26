@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS link-->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--Javascript link-->
+<script src="Javascript/main.js"></script>
+     <!--Google font link-->
+     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!--bootstrap css link-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+
+  <!--Animation link-->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <!--botstrap script link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+  <!--scroll animation link aos-->
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!--font awesome link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
+    <title>FOODIE CAVE HOME PAGE</title>
+
+  
+    
+</head>
+<body onload="myFunction()"> 
+   <div id="loading"></div>
+  <!--Pop Up start-->
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+  <div class="elfsight-app-f8a757b8-ebad-4cd2-aefa-5d0751b7a45b"></div>
+<!--popup end-->
+    <!--navbar-->
+    <nav class=" fixed-top navbar navbar-expand-md">
+        <div  class="container-fluid">
+            <a href="" class="navbar-brand">
+                <img src="IMAGE/foodiec.jfif" alt="" class="weblogo">
+                <h4 class="moblogo">Foodie cave</h4>
+            </a>
+            <button class="navbar-toggler "data-bs-target = "#bc" data-bs-toggle = "collapse">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars" ></i>
+                </span>      
+              </button>
+              <div class="navbar-collapse collapse" id="bc">
+            <ul class="navbar-nav ms-auto text-centre ">
+                <li class="text-center"><a href="index.html" class="nav-link " style="color: #debd69; ">HOME</a></li>
+                <li class="text-center"><a href="about.html" class="nav-link " style="color: #debd69;">ABOUT</a></li>
+                <li class="text-center"><a href="starters.html" class="nav-link " style="color: #debd69;">MENU & ORDERS</a></li>
+                <li class="text-center"><a href="services.html" class="nav-link " style="color: #debd69;">SERVICES</a></li>
+                <li class="text-center"><a href="contact.html" class="nav-link " style="color: #debd69;">CONTACT</a></li>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#bb">LOGIN</button>
+            </ul>
+        </div>
+    </nav>
+    <!--navbar end-->
+    <!--welcome to foodie cave start-->
+    <!--Desktop view-->
+  <div class="container-fluid mt-5 box">
+   <div class="container">
+    <div class="row">
+        <div class="col-md-5 box1 mt-5">
+            <img src="https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGluZGlhbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60" alt="" class="img-fluid">
+            
+        </div>
+        <div class="col-md-7 text-center">
+           <div class="container-fluid mt-5">
+            <div class="row">
+                <h3 class=" text-centre text-white"></h3>
+                <div class="col-md-12 mt-5 w ">
+                  <h1 class=" h3 mt-1 text-end mb-3" style="color: #debd69;"><i class="fa-solid fa-phone"></i> 0123456789 </h1>
+                  <h2 class="t h2 text-white text-center mb-5"><B>WELCOME TO FOODIE CAVE</B></h2>
+                    <p class="text-white h3 text-centre htext px-5 mt-5">We cook of your choise</p>
+                   <!-- <p class="ptext text-white text-centre text-justify px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>              -->
+                 <a href="BookYourTable.html"><button class="btn btn-light mx-5 ">BOOK YOUR TABLE</button></a>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+   </div>
+  </div>  <!--container fluid end-->
+  <!--mobile view start-->
+  <div class="container-fluid boxs">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2cx43d01DOivNx6xvp7VoV0uEzMo9dNtpQ&usqp=CAU" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7VpbPv0bndbP6qD5G565jNpv-eiRrt7WAA&usqp=CAU" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ11sbJW8lqPkoVEnuvumGyir1dwCP2mfxV-A&usqp=CAU" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLLzsiYoDtOd9LJeTeyuQNGyEtdBkUg4pE3w&usqp=CAU" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  <div class="container-fluid  text-centre">
+    <div class="row ">
+        <h3 class=" text-centre text-white"></h3>
+        <div class="col-md-12 mt-5 w sliderdown px-5 text-center">
+          <h1 class=" h4 mt-1 text-center mb-3" style="color: #debd69;"><i class="fa-solid fa-phone"></i> 0123456789 </h1>
+          <h2 class="t h2 text-white text-center mb-5"><B>WELCOME TO FOODIE CAVE</B></h2>
+            <p class="text-white h3 text-centre px-5">We cook of your choise</p>
+           
+                   
+            <a href="BookYourTable.html"><button class="btn btn-light mx-5 mb-3">BOOK YOUR TABLE</button></a>
+          </div>
+        
+    </div>
+   </div>
+  </div> <!--boxs end-->
+   
+ <!--page loader-->
+ <div class="loader-wrapper">
+  <div class="loader"></div>
+  <div class="loader-text">Loading...</div>
+</div>
+ 
+  
+  <!--scroll to top button-->
+  <button id="scrollToTopBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
+
+ <!--counter section start-->
+  <div class="counter mt-5">
+    <div class="counter-section">
+     <div class="container">
+      <div class="row text-center">
+      <div class="col-md-3 mb-lg-0 mb-md-0  mb-4">
+        <h2>
+          <span id="count1" style="font-size: 70px;"></span>+
+        </h2>
+        <p>Beverages</p>
+      </div>
+      <div class="col-md-3 mb-lg-0 mb-md-0  mb-4">
+        <h2>
+          <span id="count2" style="font-size: 70px;"></span>+
+        </h2>
+        <p>Snacks</p>
+      </div>
+      <div class="col-md-3 mb-lg-0 mb-md-0  mb-4">
+        <h2>
+          <span id="count3" style="font-size: 70px;"></span>+
+        </h2>
+        <p>Special Dishes</p>
+      </div>
+      <div class="col-md-3 mb-lg-0 mb-md-0  mb-4">
+        <h2>
+          <span id="count4" style="font-size: 70px;"></span>+
+        </h2>
+        <p>Pizza</p>
+      </div>
+      </div>
+     </div>
+    </div>
+  </div>
+
+  <!--counter section end-->
+      <!--why Foodie cave-->
+      <div class="container-fluid mt-4 text-center">
+        <div class="container">
+          <h3 class="text-center h1 t mb-4  " data-aos="fade-right"> About <span style="color: #b05926;"><b>Us</b></span></h3>
+          <div class="row" data-aos="fade-up" >
+            <div class="col-md-7 bb">
+              <p class="ptext px-5 text-justify lh-sm " style="font-size: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Totam alias mollitia veritatis! Optio adipisci harum officia explicabo placeat. 
+                Officiis exercitationem amet reprehenderit neque dolorum placeat,
+                 soluta vel iure illum molestias. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Totam alias mollitia veritatis! Optio adipisci harum officia explicabo placeat. 
+                Officiis exercitationem amet reprehenderit neque dolorum placeat,
+                 soluta vel iure illum molestias.</p>
+                 <button type="button" class="btn bb mx-5">Read more</button>
+            </div>
+            <div class="col-md-5">
+              <img src="https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?size=626&ext=jpg&ga=GA1.2.670415651.1680942395&semt=ais" alt="restaurant img" class="img-fluid shadow p-3">
+            </div>
+            
+          </div>
+        </div>
+      </div> 
+      
+      <!--why Foodie cave end-->
+  <h3 class="text-center t mb-4  h1 mt-5" data-aos="fade-right">Our <span style="color: #b05926;"><b>Speciality</b></span></h3>
+    <div class="container-fluid mt-5 ">
+      
+      <div class="container">
+       
+      <div class="row mb-4 " data-aos="fade-up" >
+      <div class="col-md-4">
+      <div class="card card1 border-light text-center ">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEGuOn5IC7LO3zarujcGH_otaRLVhNHuuQ1A&usqp=CAU" alt="" class="img-fluid mx-5">
+        <div class="card-body ">
+          <p class=" h5">foodies special pizza</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 380 <del>410</del></p>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <br>
+          <button class="btn  mb-3">Order now</button>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="card card1 text-center border-light">
+          <img src="https://img.freepik.com/premium-photo/rice-vermicelli-noodles-spicy-salad_51524-26172.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais" alt="" class="img-fluid mx-5">
+          <div class="card-body ">
+            <p class=" h5">Foodies special Noodles</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 280 <del>310</del></p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <br>
+            <button class="btn  mb-3">Order now</button>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="card card1 text-center border-light ">
+            <img src="https://img.freepik.com/free-vector/mojito-cocktail-realistic_1284-3884.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=sph" alt="" class="img-fluid mx-5" >
+            <div class="card-body ">
+              <p class=" h5">Foodies special majito</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 180 <del>210</del></p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <br>
+              <button class="btn  mb-3">Order now</button>
+            </div>
+          </div>
+          </div>
+      </div>
+      <div class="row mt-5" data-aos="fade-up">
+        <div class="col-md-4 text-center">
+        <div class="card card1 text-center border-light text-center">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjm8ckCVwcFMYj4-n3Otw6LS37m4i2LNqGjQ&usqp=CAU" alt="" class="img-fluid mx-5">
+          <div class="card-body ">
+            <p class=" h5">Foodies special Biryani</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 580 <del>710</del></p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <br>
+            <button class="btn  mb-3">Order now</button>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="card card1 text-center border-light">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIEkJgZlGWGl-CvkOiZsifEjO4zuFX8TItCw&usqp=CAU" alt="" class="img-fluid mx-5">
+            <div class="card-body ">
+              <p class=" h5">foodies special res malai</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 380 <del>410</del></p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <br>
+              <button class="btn  mb-3">Order now</button>
+            </div>
+          </div>
+          </div>
+       
+        </div>
+      </div>
+    </div> <!-- 1st our speceality container fluid end-->
+    <!--our specilities-->
+ 
+      <!--our serices start-->
+      <h3 class="text-center t mb-4 h1 mt-5" data-aos="fade-right" ><b>What</b><span style="color: #b05926;"><b> We Provide</b></span></h3>
+      <div class="container-fluid">
+          <div class="container">
+              <div class="row" data-aos="fade-up">
+                  <div class="col-md-4 text-center seriv "> 
+                      <i class="fa-solid fa-globe mt-3"></i>
+                      <h3 class="h3">Online Booking</h3>
+                      <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo sunt distinctio, ea ullam minima dignissimos, iste natus
+                      </p>
+                  </div>
+                  <div class="col-md-4 text-center seriv ">
+                      <i class="fa-solid fa-truck mt-3"></i>
+                      <h3 class="h3">Food Delivery</h3>
+                      <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo sunt distinctio, ea ullam minima dignissimos, iste natus
+                      </p>
+                  </div>
+                  <div class="col-md-4 text-center seriv">
+                      <i class="fa-sharp fa-solid fa-champagne-glasses mt-3"></i>
+                      <h3 class="h3">Party Orgnizer</h3>
+                      <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo sunt distinctio, ea ullam minima dignissimos, iste natus
+                      </p>
+                  </div>
+              </div>
+              <div class="row mt-4">
+                  <div class="col-md-4 text-center seriv">
+                      <i class="fa-solid fa-utensils mt-3"></i>
+                      <h3 class="h3">Catering</h3>
+                      <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo sunt distinctio, ea ullam minima dignissimos, iste natus
+                      </p>
+                  </div>
+                  
+                  <div class="col-md-4  text-center seriv"> 
+                      <i class="fa-solid fa-utensils mt-3"></i>
+                      <h3 class="h3">Sit and Din</h3>
+                      <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo sunt distinctio, ea ullam minima dignissimos, iste natus
+                      </p>
+                  </div>
+                  <div class="col-md-4"> </div>
+              </div>
+          </div>
+      </div>
+      <!--our servise-->
+
+
+   <!--Make your moment more spacial with us-->
+   <h3 class="text-center t mb-4  h1 mt-5" data-aos="fade-right" >Make your moment more special <span style="color: #b05926;"><b>With us!</b></span></h3>
+ 
+    <!--Desktop view-->
+   <div class="container-fluid mt-4 specialD">
+    <div class="container">
+   <div class="row" data-aos="fade-up" >
+    <div class="col-md-3">
+    <div class="col">
+      <div class="row">
+        <img src="https://img.freepik.com/free-photo/young-adults-having-party-home_23-2149215865.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais" alt="" class="imgd">
+      </div>
+      <div class="row"></div>
+    </div>  
+    </div>
+    <div class="col-md-3">
+      <div class="col">
+        <div class="row" style="height: 80px;" data-aos="fade-up">
+        </div>
+        <div class="row">
+          <img src="https://img.freepik.com/free-photo/friends-eating-restaurant_23-2147680645.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais" alt="" class="imgd">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="col">
+        <div class="row">
+          <img src="https://img.freepik.com/free-photo/fiends-posing-night-party_23-2147640535.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais" alt="" class="imgd">
+        </div>
+        <div class="row"></div>
+      </div>  
+    </div>
+    <div class="col-md-3">
+      <div class="col">
+        <div class="row" style="height: 80px;">
+        </div>
+        <div class="row">
+          <img src="https://img.freepik.com/free-photo/medium-shot-friends-taking-selfie_23-2149212157.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais" alt="" class="imgd">
+        </div>
+      </div>
+    </div>
+   </div>
+    </div>
+  </div>
+
+  <!--Mobile view-->
+  <div class="specialM boxs" data-aos="fade-up" >
+  <div id="m" class="carousel slide " data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <span type="button" data-bs-target="#m" data-bs-slide-to="0" class="active">
+        
+      </span>
+      <button type="button" data-bs-target="#m" data-bs-slide-to="1" ></button>
+      <button type="button" data-bs-target="#m" data-bs-slide-to="2" ></button>
+      <button type="button" data-bs-target="#m" data-bs-slide-to="3" ></button>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://img.freepik.com/free-photo/young-adults-having-party-home_23-2149215865.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais" alt="Chania" class="img-fluid w-100">
+        <div class="carousel-caption">
+          <h3 class="h3 t">Birthday Celeberation</h3>
+         
+        </div>
+      </div>
+  
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/free-photo/friends-eating-restaurant_23-2147680645.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais" alt="" class="img-fluid w-100">
+        <div class="carousel-caption">
+          <h3>Spend Your Happy moment</h3>
+         
+        </div>
+      </div>
+  
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/free-photo/fiends-posing-night-party_23-2147640535.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais" alt="" class="img-fluid w-100">
+        <div class="carousel-caption">
+          <h3 class="h3 t">Great place for night party</h3>
+        
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/free-photo/fiends-posing-night-party_23-2147640535.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais" alt="" class="img-fluid w-100">
+        <div class="carousel-caption">
+          <h3 class="h3 t">Great place for night party</h3>
+        
+        </div>
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#m" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#m" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+<!--Make your moment more spacial with us end-->  
+
+<!--connect with us-->
+
+<div class="container-fluid mt-5">
+
+    <h3 class="text-center t mb-4  h1" data-aos="fade-right" >Connect <span style="color: #b05926;"><b>With us!</b></span></h3>
+    <div class="row bg p-5" data-aos="fade-up">
+      <div class="col-md-3"></div>
+      <div class="col-md-6 bb text-center">
+     <h3 class="text-center t" style="font-size: 31px;">Hurry up! Subscribe Our Newsletter And Get 25% Off</h3>
+     <div style="margin-left: 30px; margin-right: 30px;">
+     <div class="form-floating mb-3 mt-3 ">
+      <input type="email" class="form-control px-5" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address here</label>
+    </div>
+    </div>
+    <button type="button" class="btn ml-4">Subscribe</button>
+      </div>
+      <div class="col-md-3"></div>
+  </div>
+ 
+</div>
+
+<!--connect with us end-->
+
+      <!--FAQ-->
+      <h3 class="text-center t mb-4  mt-5 h3" data-aos="fade-right">Frequenty Asked<span style="color: #b05926;"><b> Questions</b></span></h3> 
+      <div class="container-fluid faq" id="FAQ">
+        <div class="container">
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-2"></div>
+                <div class="col-md-8" data-aos="fade-up">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed ptext" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Is you beak fresh every day?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body ptext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quas deleniti, modi fugiat deserunt quo, quos perspiciatis quasi qui facilis placeat eum minima voluptatem consectetur ut doloribus nesciunt eos tempore?</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed ptext" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Is you beak fresh every day?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  ptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nostrum facere praesentium libero adipisci eligendi maxime quis quidem facilis dolorem hic consequatur quod reprehenderit necessitatibus. Adipisci necessitatibus veniam dolores. Dolor?</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed ptext"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Is you beak fresh every day?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  ptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus veritatis dicta similique quod atque, rem tempore et harum quia natus, assumenda voluptatibus iusto ab fuga! Illo eaque ducimus quas!</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed ptext" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+              Is you beak fresh every day?
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  ptext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur tenetur eos ratione quasi rerum. Quod, sunt ad? Blanditiis odio, ducimus nemo modi quaerat non aliquid temporibus sit minima alias veniam.</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4"></div>
+      </div>
+      </div>
+      </div>
+       <!--FAQ end-->
+
+       <!--footer -->
+
+       <div class="container-fluid footer">
+        <div class="container" style="border-bottom: 2px solid #debd69;">
+          <div class="row">
+            <div class="col-md-4 text-center ">
+              <img src="IMAGE/foodiec.jfif" alt="" class="img-fluid  mt-5">
+            </div>
+            <div class="col-md-4 ">
+              <div class="row">
+                <div class="col-md-12">
+                 
+              <h5 class=" h5 mt-5"><i class="fa-solid fa-location-pin"></i>Mama ka Bazar, Lashkar Gwalior</h5>
+            
+              </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                 
+              <h5 class=" h5 mt-1"><i class="fa-solid fa-phone"></i>0123456789 </h5>
+             
+              </div>
+              </div>
+            
+              <div class="row mb-2 mt-2">
+                <div class="col-md-12">
+                 
+              <h5 class=" h5 mt-1"><i class="fa-solid fa-envelope"></i>foodiecaves@gmail.com </h5>
+            
+              </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-md-12">
+                 
+              <h4 class=" h4"></h4>
+              <a href=""> <i class="fa-brands fa-linkedin i"></i></a>
+             <a href=""> <i class="fa-brands fa-square-facebook i"></i></a>
+             <a href=""> <i class="fa-brands fa-twitter i"></i></a>
+             <a href=""> <i class="fa-brands fa-instagram i"></i></a>
+             <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-5 ml-5">
+            <a href="index.html" class="fot3"> <h5 class=" h5 mt-1 "><i class="fa-solid fa-arrow-right"></i>HOME</h5></a>
+             <a href="starters.html" class="fot3"> <h5 class=" h5 mt-1 "><i class="fa-solid fa-arrow-right"></i>ORDERS</h5></a>
+          <a href="about.html" class="fot3"> <h5 class=" h5 mt-1 "><i class="fa-solid fa-arrow-right"></i>ABOUT US</h5></a>
+            <a href="#FAQ" class="fot3"> <h5 class=" h5 mt-1 "><i class="fa-solid fa-arrow-right"></i>FAQ </h5></a>
+            <a href="" class="fot3"><h5 class=" h5 mt-1 "><i class="fa-solid fa-arrow-right"></i>FEEDBACK</h5></a>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="container-fluid  " style="background-color: #0c1526;">
+        <div class="container text-center ">
+         <h4 class="h6" style="color: #debd69;">@Foodie Cave All right reserve copyright 2019</h4> 
+        </div>
+       </div>
+
+            <!-- Button trigger modal -->
+      <div class="modal fade" id="bb">
+        <div class="modal-dialog modal-sm" > <!--modal-xl,sm,lg--->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Login</h5>
+      
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+            </div><!---modal header end--->
+            <div class="modal-body">
+              <!-- <h1 class="text-center">Login Form</h1> -->
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" required>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button> <br>
+               <button type="" class="btn btn-primary text-center mt-3">Create new account</button>
+              </form>
+       
+      
+            </div><!-- modal body--->
+        </div><!---model dialog--- end=--->
+      </div>
+      <!---modal end--->
+    
+    
+      <script>
+        AOS.init();
+          // page loader code
+
+  window.addEventListener("load", function () {
+  const loader = document.querySelector(".loader-wrapper");
+  const content = document.querySelector(".content-wrapper");
+  loader.classList.add("fadeOut");
+  setTimeout(function () {
+    loader.style.display = "none";
+    content.style.display = "block";
+  }, 2000);
+});
+      </script>
+
+</body>
+</html>
+
+
+

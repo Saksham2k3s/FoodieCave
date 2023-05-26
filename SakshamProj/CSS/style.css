@@ -1,0 +1,618 @@
+
+/* Navbar css */
+nav{
+    background: #0c1526 !important;
+}
+
+nav img{
+    width: 103px;
+}
+.navbar-nav a{
+    font-family: Dancing Script;
+     
+font-size: 20px;
+}
+.navbar-nav button{
+    font-family: Dancing Script;
+     border: 2px solid #debd69;
+     color: #debd69;
+font-size: 20px;
+}
+.navbar-nav button:hover{
+    font-family: Dancing Script;
+     border: 2px solid #debd69;
+     background-color: #debd69;
+     color:black;
+font-size: 20px;
+}
+nav i{
+    color: #debd69; 
+    font-size: 40px;
+}
+.login{
+    background-color: #debd69;
+    color: #0c1526;
+}
+
+.login button{
+    color: #debd69;
+    background-color: black;
+    border: 2px solid #debd69;
+}
+
+.moblogo{
+    display: none;
+}
+@media(max-width: 768px)
+{
+  .moblogo{
+     display: block;
+     color: #debd69;
+     font-family: 'Pacifico', cursive;
+     font-size: 30px;
+     text-decoration: underline;
+  }
+  .weblogo{
+    display: none;
+  }
+ .mobile{
+  margin-top: 40px;
+ }
+
+}
+
+.navbar-nav a:hover{
+    border: 1px solid gold;
+    border-radius: 48px;
+}
+/* Home page css */
+.box{
+    background: linear-gradient(to top, white 0%, white 15%, rgb(0, 0, 0) 15%, rgb(0, 0, 0) 100%)
+}
+.htext{
+    font-family: 'Arimo', sans-serif;
+    font-size: 37px;
+}
+.t{
+    font-family: 'Arimo', sans-serif;
+    font-size: 37px;
+    color: aliceblue;
+    text-decoration: bold;
+}
+.htext:hover{
+    border-bottom: 2px solid #b05926;
+    border-radius: 160px;
+    
+}
+
+.ptext{
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+.w button:hover{
+    background-color: black;
+    color: #b05926;
+    border: 1px solid #b05926;
+}
+.boxs{
+    display: none;
+}
+
+.w button{
+    background-color: #b05926;
+    color: black;
+}
+@media(max-width: 768px){
+    .box{
+        display: none;
+    }
+    .boxs{
+        display: block;
+        background-color: black;
+    }
+    .boxs img{
+        width: 50px;
+    }
+    .sliderdown{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+.card-body button{
+   background-color: #b05926;
+   color: black;
+}
+.card-body button:hover{
+    background-color: white;
+    color: #b05926;
+    border: 1px solid #b05926;
+ }
+ .shadow{
+     height: 400px;
+     width: 450px;
+     transition: all 2s;
+    transition-timing-function: linear;
+    border: transparent;
+    
+ }
+ .shadow:hover{
+    border-radius: 522px;
+
+ }
+
+ .bb button{
+    background-color: #b05926;
+    color: black;
+    height: 50px;
+    width: 110px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .bb button:hover{
+     background-color: white;
+    
+     color: #b05926;
+     border: 1px solid #b05926;
+  }
+.bg{
+    background-color: #e6b22d;
+    background: url(https://img.freepik.com/free-photo/delicious-indian-food-tray-flat-lay_23-2148723508.jpg?size=626&ext=jpg&ga=GA1.2.670415651.1680942395&semt=ais),linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.faqm{
+    display: none;
+}
+.accordion-body{
+    background-color: #e6b22d;
+}
+.imgd{
+    width: 30%;
+     animation: Updown 1s ease-in-out infinite alternate-reverse both ;
+    
+}
+.specialM{
+    display: none;
+}
+.imgm{
+    width: 345px;
+
+    
+}
+@keyframes Updown{
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+@media(max-width : 768px){
+    .specialD{
+        display: none;
+    }
+    .specialM{
+        display: block;
+    }
+}
+.mm{
+    width: 88px;
+}
+@keyframes leftright{
+    0%{
+        transform: translateX(-10px);
+
+    }
+    100%{
+        transform: translateX(10px);
+    }
+}
+
+
+/* Footer css */
+.footer{
+    background-color: #0c1526;
+}
+.footer img{
+    width: 200px;
+}
+.footer h4{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    border-bottom: #debd69;
+    color: #debd69;
+}
+.footer i{
+    color: hsl(43, 64%, 64%);
+    font-size: 25px;
+    margin-right: 10px;
+}
+.footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: #debd69;
+}
+.fot3{
+    display: flex;
+    text-decoration: none;
+    color: #debd69;
+}
+.card1 img{
+    height: 250px;
+    width: 250px;
+  
+}
+
+
+/* .imgm{
+    animation: leftright 1s ease-in-out infinite alternate-reverse both ;
+} */
+.icon{
+    font-size: 12px;
+}
+
+/* About css */
+.banner1{
+  
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://img.freepik.com/premium-photo/tasty-fresh-italian-pizza-with-bacon-cihili-pepper-spinach-onion-served-old-wooden-table_341862-2943.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    -webkit-background-size: cover;
+    /* filter: blur(5px); */
+}
+.banner1_text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-family: 'Pacifico', cursive;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+   color: #fff;
+}
+
+
+.grid2{
+    height: 96% !important;
+    width: 33% !important;
+
+} 
+
+.shadowimg{
+    box-shadow: 4px 3px 4px 1px rgb(138, 138, 141);
+  }
+  .card2 .card-img-overlay{
+    border: 2px solid #debd69;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, transparent 0%,transparent 80%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.6) 100%),url(https://t3.ftcdn.net/jpg/00/61/88/88/240_F_61888864_eZJJkbI8KVTB68zrCYgt3S53QrDLTNcx.jpg);
+  }
+
+  /* services css */
+  .banner2{
+  
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/cocktail-glasses_144627-34955.jpg?size=626&ext=jpg&ga=GA1.2.670415651.1680942395&semt=sph);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    -webkit-background-size: cover;
+    /* filter: blur(5px); */
+}
+  .banner2_text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-family: 'Pacifico', cursive;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+.banner2_text:hover{
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.card3{
+    border: 2px solid #debd69;
+}
+.card3 i{
+    color: #debd69;
+    font-size: 90px;
+}
+.card3 .card-body h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #debd69;
+}
+.card3 .card-body p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #debd69;
+}
+.seriv{
+    color: #debd69;
+}
+.seriv i{
+    font-size: 90px
+}
+ .material-symbols-outlined{
+    font-size: 90px;
+}
+.seriv:hover{
+    color: #fff;
+    background-color: #debd69;
+}
+.icon{
+    font-size: 40px;
+    color: white ;
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+  .customer{
+    text-align: justify;
+    font-family: cursive;
+  }
+  .servise-bg{
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/free-photo/restaurant-interior_1127-3393.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=ais);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*  contact css */
+  .banner3{
+  
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://img.freepik.com/free-photo/tabletop-looking-out-empty-restaurant_23-2147701293.jpg?size=626&ext=jpg&ga=GA1.2.670415651.1680942395&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    -webkit-background-size: cover;
+    /* filter: blur(5px); */
+}
+  .banner3_text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-family: 'Pacifico', cursive;
+   
+    font-size: 55px;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+.banner3_text:hover{
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.moblogo{
+    height: 30px;
+}
+   /* menu and order css */
+.menu-button{
+    background-color: #b05926;
+ 
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+
+    height: 40px;
+    width: 140px;
+}
+.menu-button:hover{
+    background-color: #fff;
+    color: #b05926;
+    border: 1px solid #b05926;
+}
+.meni-img{
+    height: 200px;
+    width: 200px;
+}
+@media(max-width : 768px){
+    .menud{
+        text-align: center;
+        align-items: center;
+    }
+}
+.boxs .carousel-item img{
+    width: 100px;
+    height: 302px;
+}
+
+.dropdown button{
+    background-color: #b05926;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 40px;
+
+}
+.dropdown button:hover{
+    background-color: #fff;
+    color: #b05926;
+    border: 1px solid #b05926;
+}
+
+.dropdown .dropdown-menu .dropdown-item{
+    color: #b05926;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+    border-bottom: 2px solid #b05926;
+}
+.card-body i{
+    color: gold;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.325);
+}
+
+.banner4{
+  
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://img.freepik.com/free-photo/selection-food-tray_1340-23421.jpg?size=626&ext=jpg&ga=GA1.1.1679889329.1683363409&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    -webkit-background-size: cover;
+    /* filter: blur(5px); */
+}
+.banner4_text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-family: 'Pacifico', cursive;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+   color: #fff;
+}
+ /* counter css */
+.counter-section h1 span{
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+  font-weight: bold;
+}
+.counter-section p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+    color: #b05926;
+}
+.book{
+    background-color: #0c1526;
+}
+.book option{
+    background-color: rgba(240, 248, 255, 0.033);
+    color: #debd69;
+}
+ .book .form-control{
+    border: 0px transparent;
+ }
+.book input{
+    background-color: rgba(240, 248, 255, 0.033);
+    border: 1px solid #debd69;
+    color: white;
+    height: 50px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.book .form-control h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.book .textarea{
+    background-color: rgba(240, 248, 255, 0.033);
+    border: 1px solid #debd69;
+    color: white;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+  /* scroll to top button */
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #e6b22d;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 25%;
+    font-size: 30px;
+  }
+  
+  /* #scrollToTopBtn:hover {
+    background-color: #555;
+  } */
+
+  /* page loader */
+
+  .loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f8d1cb;
+    z-index: 9999;
+  }
+  
+  .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 8px solid #e64c3c;
+    border-top-color: #f8d1cb;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  .loader-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #e64c3c;
+    margin-top: 80px;
+  }
+  
+  .content-wrapper {
+    display: none;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* .error{
+    color: #b05926;
+  } */
+  
+
+
+
+
+
+
+
+
+
+
+

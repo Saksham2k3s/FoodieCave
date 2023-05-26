@@ -1,0 +1,388 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS link-->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--bootstrap css link-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+
+  <!--Animation link-->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+<!--scroll animation link aos-->
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!--botstrap script link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+  <!--font awesome link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
+  
+  <!--Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <title>ORDER & MENU</title>
+    
+   
+</head>
+<body>
+     <!--navbar-->
+     <nav class=" fixed-top navbar navbar-expand-md">
+        <div  class="container-fluid">
+            <a href="" class="navbar-brand">
+                <img src="IMAGE/foodiec.jfif" alt="" class="weblogo">
+                <h4 class="moblogo">Foodie cave</h4>
+            </a>
+            <button class="navbar-toggler "data-bs-target = "#bc" data-bs-toggle = "collapse">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars" ></i>
+                </span>      
+              </button>
+              <div class="navbar-collapse collapse" id="bc">
+            <ul class="navbar-nav ms-auto text-centre ">
+                <li class="text-center"><a href="index.html" class="nav-link " style="color: #debd69; ">HOME</a></li>
+                <li class="text-center"><a href="about.html" class="nav-link " style="color: #debd69;">ABOUT</a></li>
+                <li class="text-center"><a href="starters.html" class="nav-link " style="color: #debd69;">MENU & ORDERS</a></li>
+                <li class="text-center"><a href="services.html" class="nav-link " style="color: #debd69;">SERVICES</a></li>
+                <li class="text-center"><a href="contact.html" class="nav-link " style="color: #debd69;">CONTACT</a></li>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#bb">LOGIN</button>
+            </ul>
+        </div>
+    </nav>
+    <!--navbar end-->
+     <!--scroll to top button-->
+     <button id="scrollToTopBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <div class=" banner4 container-fluid">
+      <div class="banner4_text mt-5 mb-5">
+      <h1 class="h1" >ORDERS AND MENU</h1>
+      </div> 
+     </div>
+     <!--Starters start-->
+     <!--desktop view-->
+     <div class="container-fluid mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 mt-5 specialD" style="border-right: 2px solid #debd69;">
+            <div class="row mt-5 bb text-center">
+              <h3 class="h3" style="font-family: 'Pacifico', cursive; color: #debd69;"><u>Menu</u></h3>
+              <div class="col-md-12">
+               <a href="starters.html"> <button class="menu-button mb-2">STARTERS</button></a>
+              </div>
+              <div class="col-md-12">
+               <a href=""> <button class="btn mb-2">RICE</button></a>
+              </div>
+              <div class="col-md-12">
+                <a href="chines.html"> <button class="btn mb-2">CHINESE</button></a>
+              </div>
+              <div class="col-md-12">
+                <a href=""><button class="btn mb-2">PIZZA</button></a>
+              </div>
+              <div class="col-md-12">
+                <a href=""> <button class="btn mb-2 " style="font-size: small;">BURGER & SANDWICH</button></a>
+              </div>
+              <div class="col-md-12">
+                <a href=""> <button class="btn mb-2">MAIN COURSE</button></a>
+              </div>
+              <div class="col-md-12">
+                <a href="">  <button class=" btn mb-2">DESSERT</button></a>
+              </div>
+              <div class="col-md-12">
+                <a href="beverages.html">  <button class="btn mb-2">BEVERAGES</button></a>
+              </div>
+              <div class="col-md-12">
+                <a href="">  <button class=" btn mb-2">SOUTH INDIAN</button></a>
+              </div>
+              <div class="col-md-12">
+                <a href="">  <button class="btn mb-2">BIRYANI</button></a>
+              </div>
+            </div>
+          </div>
+          <!--Mobile view-->
+              
+
+            <!--Mobile view-->
+
+            <div class="dropdown specialM mt-5 text-center">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-center" href="starters.html">STARTERS</a></li>
+                <li><a class="dropdown-item text-center" href="#">RICE</a></li>
+                <li><a class="dropdown-item text-center" href="chines.html">CHINESE</a></li>
+                <li><a class="dropdown-item text-center" href="starters.html">PIZZA</a></li>
+                <li><a class="dropdown-item text-center" href="#">BURGER & SANDWICHS</a></li>
+                <li><a class="dropdown-item text-center" href="chines.html">MAIN COURSE</a></li>
+                <li><a class="dropdown-item text-center" href="starters.html">DESSERT</a></li>
+                <li><a class="dropdown-item text-center" href="beverages.html">BEVERAGES</a></li>
+                <li><a class="dropdown-item text-center"  href="chines.html">SOUTH INDIAN</a></li>
+                <li><a class="dropdown-item text-center" href="chines.html">BIRYANI</a></li>
+              </ul>
+            </div>
+
+          <!--menu section end-->
+          <div class="col-md-10 mt-5">
+            <h3 class="text-center t mb-4 animate__animated animate__backInRight h3 mt-5"><b></b><span style="color: #b05926; font-family: 'Pacifico', cursive;"><b>BEVERAGES</b></span></h3>
+            <div class="row" data-aos="fade-up">
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEOggVva2tEC5rKEh3NX3LbSCiseZcb-mXg&usqp=CAU" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Mango Shekh</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 120 <del>140</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://img.freepik.com/free-photo/glass-peach-tea-with-ice-cubes-isolated-white-background_123827-21438.jpg?size=626&ext=jpg&ga=GA1.2.670415651.1680942395&semt=robertav1_2_sidr" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Mojito</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 120 <del>140</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://img.freepik.com/free-photo/fresh-watermelon-juice-with-ice-isolated-white-background_123827-21826.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=robertav1_2_sidr" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Shakes</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 80 <del>110</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEOggVva2tEC5rKEh3NX3LbSCiseZcb-mXg&usqp=CAU" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Mango Shekh</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 120 <del>140</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://img.freepik.com/free-photo/glass-peach-tea-with-ice-cubes-isolated-white-background_123827-21438.jpg?size=626&ext=jpg&ga=GA1.2.670415651.1680942395&semt=robertav1_2_sidr" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Mojito</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 120 <del>140</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://img.freepik.com/free-photo/fresh-watermelon-juice-with-ice-isolated-white-background_123827-21826.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=robertav1_2_sidr" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Shakes</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 80 <del>110</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEOggVva2tEC5rKEh3NX3LbSCiseZcb-mXg&usqp=CAU" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Mango Shekh</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 120 <del>140</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://img.freepik.com/free-photo/glass-peach-tea-with-ice-cubes-isolated-white-background_123827-21438.jpg?size=626&ext=jpg&ga=GA1.2.670415651.1680942395&semt=robertav1_2_sidr" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Mojito</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 120 <del>140</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://img.freepik.com/free-photo/fresh-watermelon-juice-with-ice-isolated-white-background_123827-21826.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=robertav1_2_sidr" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Shakes</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 80 <del>110</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKEOggVva2tEC5rKEh3NX3LbSCiseZcb-mXg&usqp=CAU" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Mango Shekh</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 120 <del>140</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://img.freepik.com/free-photo/glass-peach-tea-with-ice-cubes-isolated-white-background_123827-21438.jpg?size=626&ext=jpg&ga=GA1.2.670415651.1680942395&semt=robertav1_2_sidr" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Mojito</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 120 <del>140</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card menu-img border-light text-center ">
+                  <img src="https://img.freepik.com/free-photo/fresh-watermelon-juice-with-ice-isolated-white-background_123827-21826.jpg?size=626&ext=jpg&ga=GA1.1.670415651.1680942395&semt=robertav1_2_sidr" alt="" class="img-fluid mx-5">
+                  <div class="card-body text-center">
+                    <p class=" h5">Shakes</p>
+                    <p class="h5"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 80 <del>110</del></p>
+                    <button class="btn  mb-3">Order now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!--Starters end-->  
+     <!--footer -->
+
+     <div class="container-fluid footer">
+        <div class="container" style="border-bottom: 2px solid #debd69;">
+          <div class="row">
+            <div class="col-md-4 text-center ">
+              <img src="IMAGE/foodiec.jfif" alt="" class="img-fluid  mt-5">
+            </div>
+            <div class="col-md-4 ">
+              <div class="row">
+                <div class="col-md-12">
+                 
+              <h5 class=" h5 mt-5"><i class="fa-solid fa-location-pin"></i>Mama ka Bazar, Lashkar Gwalior</h5>
+            
+              </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                 
+              <h5 class=" h5 mt-1"><i class="fa-solid fa-phone"></i>0123456789 </h5>
+             
+              </div>
+              </div>
+            
+              <div class="row mb-2 mt-2">
+                <div class="col-md-12">
+                 
+              <h5 class=" h5 mt-1"><i class="fa-solid fa-envelope"></i>foodiecaves@gmail.com </h5>
+            
+              </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-md-12">
+                 
+              <h4 class=" h4"></h4>
+              <a href=""> <i class="fa-brands fa-linkedin i"></i></a>
+             <a href=""> <i class="fa-brands fa-square-facebook i"></i></a>
+             <a href=""> <i class="fa-brands fa-twitter i"></i></a>
+             <a href=""> <i class="fa-brands fa-instagram i"></i></a>
+             <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-5 ml-5">
+            <a href="index.html" class="fot3"> <h5 class=" h5 mt-1 "><i class="fa-solid fa-arrow-right"></i>HOME</h5></a>
+             <a href="starters.html" class="fot3"> <h5 class=" h5 mt-1 "><i class="fa-solid fa-arrow-right"></i>ORDERS</h5></a>
+          <a href="about.html" class="fot3"> <h5 class=" h5 mt-1 "><i class="fa-solid fa-arrow-right"></i>ABOUT US</h5></a>
+            <a href="index.html/#FAQ" class="fot3"> <h5 class=" h5 mt-1 "><i class="fa-solid fa-arrow-right"></i>FAQ </h5></a>
+            <a href="" class="fot3"><h5 class=" h5 mt-1 "><i class="fa-solid fa-arrow-right"></i>FEEDBACK</h5></a>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="container-fluid  " style="background-color: #0c1526;">
+        <div class="container text-center ">
+         <h4 class="h6" style="color: #debd69;">@Foodie Cave All right reserve copyright 2019</h4> 
+        </div>
+       </div>
+
+           <!-- Button trigger modal -->
+      <div class="modal fade" id="bb">
+        <div class="modal-dialog modal-sm" > <!--modal-xl,sm,lg--->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Login</h5>
+      
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+            </div><!---modal header end--->
+            <div class="modal-body">
+              <!-- <h1 class="text-center">Login Form</h1> -->
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" required>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button> <br>
+               <button type="" class="btn btn-primary text-center mt-3">Don't have account</button>
+              </form>
+       
+      
+            </div><!-- modal body--->
+        </div><!---model dialog--- end=--->
+      </div>
+      <!---modal end--->
+
+     
+      <script>
+        AOS.init();
+                  //scroll to top button
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("scrollToTopBtn").style.display = "block";
+    } else {
+      document.getElementById("scrollToTopBtn").style.display = "none";
+    }
+  }
+      </script>
+</body>
+</html>
